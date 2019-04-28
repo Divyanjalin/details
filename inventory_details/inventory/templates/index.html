@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="button-group">
+    <a href="#" class="btn btn-primary btn-md" role="button">one</a>
+    <a href="#" class="btn btn-warning btn-sm" role="button">+</a>
+    <a href="#" class="btn btn-primary btn-md" role="button">two</a>
+    <a href="#" class="btn btn-warning btn-sm" role="button">+</a>
+</div>
+<h4>Currently Viewing {{header}}</h4>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>age</th>
+        <th>name</th>
+        <th>school</th>
+    </tr>
+    </thead>
+</table>
+{% endblock %}
